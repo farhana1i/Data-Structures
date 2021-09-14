@@ -193,7 +193,7 @@ public:
 		input = encodedStr;
 	}
 
-	// to encode string
+	// to decode string
 	std::string decoding(std::string encodedStr) {
 		std::string decodedStr = "";
 		if (this->root == nullptr) return decodedStr;
